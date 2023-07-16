@@ -6,17 +6,22 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn-primary {
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
 /* Header Sections Style Starts From Here */
 
 header {
     background-color: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
-}
-
-.btn-primary {
-    background-color: #FF900E;
-    color: white;
-    
 }
 
 nav {
@@ -63,4 +68,34 @@ nav li a {
 
 .banner-description {
     color: #727272;
+}
+
+.banner img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* Responsive Media Queries for Small Screen */
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* Responsive Media Queries for Medium Screen */
+
+@media screen and (min-width: 576px) and (max-width:960px) {
+    
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
 }
