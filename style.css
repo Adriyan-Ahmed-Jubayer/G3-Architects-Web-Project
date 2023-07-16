@@ -1,9 +1,8 @@
+/* Shared Styles */
+
 * {
     margin: 0px;
     padding: 0px;
-}
-
-body {
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -12,6 +11,12 @@ body {
 header {
     background-color: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    color: white;
+    
 }
 
 nav {
@@ -42,13 +47,13 @@ nav li a {
     color: #424242;
 }
 
+/* Banner Sections Style Starts From Here */
+
 .banner-content {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
 }
-
-/* Banner Sections Style Starts From Here */
 
 .banner-title {
     font-size: 4rem;
