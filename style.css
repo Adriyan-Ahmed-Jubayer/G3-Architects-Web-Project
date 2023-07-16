@@ -138,6 +138,22 @@ main {
     margin-top: 5px;
 }
 
+.sponsors {
+    text-align: center;
+}
+
+.sponsors-img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.sponsors-img-container img {
+    width: 165px;
+}
+
 /* Responsive Media Queries for Small Screen */
 
 @media screen and (max-width: 576px) {
@@ -145,7 +161,7 @@ main {
         padding: 20px;
     }
 
-    nav, .teams-container .facts-card-container{
+    nav, .teams-container, .facts-card-container > div {
         flex-direction: column;
     }
 
